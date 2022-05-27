@@ -71,10 +71,11 @@ body {
     font-family: "KyoboHand", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: transparent;
     padding-top: 180px;
-    background-image: url("https://cdn.discordapp.com/attachments/460145928850898945/515694458633846831/snow.png")
-    , url("https://cdn.discordapp.com/attachments/460145928850898945/515694460668084274/snow3.png")
-    , url("https://cdn.discordapp.com/attachments/460145928850898945/515694462278828073/snow2.png");
-    animation: snow 10s linear infinite;
+    /* 리소스 많이먹어서 못써먹을듯 */
+    /*background-image: url("https://cdn.discordapp.com/attachments/460145928850898945/515694458633846831/snow.png")*/
+    /*, url("https://cdn.discordapp.com/attachments/460145928850898945/515694460668084274/snow3.png")*/
+    /*, url("https://cdn.discordapp.com/attachments/460145928850898945/515694462278828073/snow2.png");*/
+    /*animation: snow 10s linear infinite;*/
 }
 
 a {
@@ -310,7 +311,7 @@ board
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-category>span {
-    max-width: 80px !important;
+    max-width: 83px !important;
 }
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
