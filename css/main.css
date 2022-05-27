@@ -65,7 +65,6 @@ html {
     height: auto !important;
     background: linear-gradient(to bottom, #ffe8f1, #ffe8f1);
     scroll-behavior: smooth;
-    z-index: 10;
 }
 
 body {
@@ -185,18 +184,26 @@ board
     color: #fc94ad;
 }
 
+#board-info #viewers-area, #board-info #score-area {
+    color: #8a94ef !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
 #board-info #viewers-area #viewers:before {
-    content: "엘이의 ";
+    content: "엘이의 소중한 ";
     cursor: text;
     color: #fc94ad;
     font-weight: bold;
+    font-size: large;
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "명의 소중한 트수들";
+    content: "명의 트수";
     cursor: text;
     color: #fc94ad;
     font-weight: bold;
+    font-size: large;
 }
 
 #board-info #viewers-area .fa-user:before {
@@ -216,9 +223,7 @@ board
 }
 
 .frame {
-    /*background: #fc94ad !important;*/
-    background-color: #f3eeff !important;
-    /*color: #fc94ad !important;*/
+    background-color: #f6f4ff !important;
 }
 
 
@@ -229,9 +234,9 @@ board
         box-shadow: 0 0 0 2px #FBF7FF, 0 0 0 3px #fc94ad, 3px 0px 8px rgba(0, 0, 0, 0.2);
     }
 
-    #article-list #article-list-category.can-float>a.active {
-        background: #c9baff;
-    }
+    /*#article-list #article-list-category.can-float>a.active {*/
+    /*    background: #c9baff;*/
+    /*}*/
 
     #article-list #article-list-category.can-float>a:hover {
         background: #ede8ff;
@@ -263,7 +268,7 @@ board
     border: 1px dashed #fc94ad;
     font-weight: bold;
     font-size: initial;
-    background-color: #f897b7 !important;
+    background-color: #fff8fb !important;
 }
 
 #article-list>.article-list-row {
@@ -302,6 +307,10 @@ board
 #article-list>.article-list-row>.item>.list-title>.list-category,
 #article-list>.article-list-row>.item>.list-title>.list-writer {
     border-color: black;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-category>span {
+    max-width: 80px !important;
 }
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
