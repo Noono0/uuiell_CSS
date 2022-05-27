@@ -5,7 +5,7 @@
     font-style: normal;
     font-size: initial;
 }
-/* test */
+
 @font-face {
     font-family: "Katuri";
     src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/Katuri.woff") format("woff");
@@ -63,7 +63,7 @@ header .row>div:nth-child(1)>a>img {
 
 html {
     height: auto !important;
-    background: linear-gradient(to bottom, #ffe8f1, #ffe8f1); /* linear-gradient : 그라데이션 옵션. 색상코드 3개 손보시면 됨 */
+    background: linear-gradient(to bottom, #ffe8f1, #ffe8f1);
     scroll-behavior: smooth;
     z-index: 10;
 }
@@ -162,7 +162,6 @@ navigation (sidebar)
 board
 ******************************/
 
-/* 프로필 이미지 */
 #board-info #board-info-profile-img {
     width: 45px;
     height: auto;
@@ -180,17 +179,6 @@ board
     margin-left: 95px;
     border-bottom: 1px dashed #fc94ad;
 }
-
-/* #board-info>h1> :nth-child(1):before {
-    content: "";
-    width: 284px;
-    height: 159px;
-    position: absolute;
-    top: -290px;
-    left: 215px;
-    background: url("https://pogeun.github.io/tgd-CSS/borav12/resource/title.png") no-repeat;
-    z-index: 10000;
-} */
 
 #board-info #viewers-area {
     /*float: right;*/
@@ -432,16 +420,22 @@ footer:after {
 
 
 /* --------------- 특수 --------------- */
-/* 메인 게시판 상단 광고 배너 숨기기 */
+/* 광고 */
 #article-list > div:nth-child(3) {
     background: #ffe8f1 !important;
     display:none !important;
 }
 
-/* 좌측 광고 숨기기 */
 ad-shield-ads{
     display:none !important;
 }
+
+#article-list>.article-list-row.featured{
+    display:none !important;
+}
+
+
+
 
 .fa-heart {
 
@@ -548,7 +542,6 @@ fa.fa-info-circle {
 }
 
 
-/* 프로필 이미지 바운스 효과 키프레임 */
 @keyframes imgBounce {
     0% {
         transform: translateY(-10px);
