@@ -226,8 +226,10 @@ board
     color: #fc94ad;
 }
 
-#board-info #article-list {
-    color: #fc94ad !important;
+.frame {
+    /*background: #fc94ad !important;*/
+    background-color: #f3eeff !important;
+    /*color: #fc94ad !important;*/
 }
 
 
@@ -291,7 +293,7 @@ board
 #article-list>.article-list-row>.item>.list-blocked,
 #article-list>.article-list-row>.item>.list-time {
     border-bottom: none;
-
+    font-size: 16px !important;
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
@@ -300,8 +302,8 @@ board
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
     color: #3ba3ff !important;
-
 }
+
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
     color: #cd00ff !important;
     font-size: inherit;
@@ -314,7 +316,7 @@ board
 }
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
-    color: #a9a9a9 !important
+    color: #a9a9a9 !important;
 }
 
 
