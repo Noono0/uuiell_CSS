@@ -102,9 +102,8 @@
     }
 }
 
-/*
-프로필 이미지 바운스 효과 키프레임
-*/
+
+/* 프로필 이미지 바운스 효과 키프레임 */
 @keyframes imgBounce {
     0% {
         transform: translateY(-10px);
@@ -262,7 +261,7 @@ board
 
 /* 프로필 이미지 */
 #board-info #board-info-profile-img {
-    width: 90px;
+    width: 70px;
     height: auto;
     border-radius: 4px;
     border: 1px dashed #9D82FF;
