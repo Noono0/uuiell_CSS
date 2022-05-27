@@ -65,6 +65,7 @@ html {
     height: auto !important;
     background: linear-gradient(to bottom, #ffe8f1, #ffe8f1); /* linear-gradient : 그라데이션 옵션. 색상코드 3개 손보시면 됨 */
     scroll-behavior: smooth;
+    z-index: 10;
 }
 
 body {
