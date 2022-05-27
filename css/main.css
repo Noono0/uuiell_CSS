@@ -161,18 +161,18 @@ header .row>div:nth-child(1)>a>img {
 
 html {
     height: auto !important;
-    background: linear-gradient(#e0b5e5, #dcade3, #d8a0de); /* linear-gradient : 그라데이션 옵션. 색상코드 3개 손보시면 됨 */
+    background: linear-gradient(#fed1e5, #fdbdd5, #fdbbd2); /* linear-gradient : 그라데이션 옵션. 색상코드 3개 손보시면 됨 */
     scroll-behavior: smooth;
 }
 
 body {
     font-family: "KyoboHand", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: transparent;
-    /* padding-top: 180px; */
+     padding-top: 180px;
     background-image: url("https://cdn.discordapp.com/attachments/460145928850898945/515694458633846831/snow.png")
     , url("https://cdn.discordapp.com/attachments/460145928850898945/515694460668084274/snow3.png")
     , url("https://cdn.discordapp.com/attachments/460145928850898945/515694462278828073/snow2.png");
-    animation: snow 20s linear infinite;
+    animation: snow 10s linear infinite;
 }
 
 a {
@@ -290,7 +290,7 @@ board
 } */
 
 #board-info #viewers-area {
-    float: right;
+    /*float: right;*/
     color: #fc94ad;
 }
 
@@ -361,6 +361,8 @@ board
     margin-bottom: 4px;
     border-radius: 4px;
     border: 1px dashed #fc94ad;
+    font-weight: bold;
+    font-size: initial;
 }
 
 #article-list>.article-list-row>.item>.list-checkbox,
@@ -370,6 +372,7 @@ board
 #article-list>.article-list-row>.item>.list-blocked,
 #article-list>.article-list-row>.item>.list-time {
     border-bottom: none;
+
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
@@ -378,7 +381,7 @@ board
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count,
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-    color: #fc94ad;
+    color: #f54875 !important;
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-category,
@@ -386,14 +389,19 @@ board
     border-color: black;
 }
 
+#article-list>.article-list-row>.item>.list-title>a:visited {
+    color: #a9a9a9 !important
+}
+
+
 #article-list>.article-list-row:hover {
     background-color: transparent;
     animation: bounce1 2s ease;
 }
 
 #article-list #article-list-menu>.btn.best {
-    color: #96A5FF;
-    border-color: #96A5FF;
+    color: #ffb4b4;
+    border-color: #ffb4b4;
 }
 
 #article-list #boardSearchForm .form-control {
@@ -500,5 +508,18 @@ footer:after {
 /* 좌측 광고 숨기기 */
 #main-menu > div:nth-child(2) {
     display:none;
+}
+
+.fa-heart {
+
+}
+
+fa.fa-info-circle {
+    color: #000000;
+    vertical-align: -2px !important;
+}
+
+.fa-heart {
+    color: #ff3939 !important;
 }
 
