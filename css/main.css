@@ -161,7 +161,7 @@ header .row>div:nth-child(1)>a>img {
 
 html {
     height: auto !important;
-    background: linear-gradient(#fed1e5, #fdbdd5, #fdbbd2); /* linear-gradient : 그라데이션 옵션. 색상코드 3개 손보시면 됨 */
+    background: linear-gradient(#ffdfed, #ffd6e7, #ffcfe0); /* linear-gradient : 그라데이션 옵션. 색상코드 3개 손보시면 됨 */
     scroll-behavior: smooth;
 }
 
