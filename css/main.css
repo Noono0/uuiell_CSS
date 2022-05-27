@@ -28,7 +28,7 @@
 큰 틀
 ******************************/
 * {
-    /*cursor: url("https://cdn.discordapp.com/attachments/897809037448589335/979562507909857290/cur_uuiell_heart.png") 0 0, auto !important;*/
+    cursor: url("https://cdn.discordapp.com/attachments/897809037448589335/979562507909857290/cur_uuiell_heart.png") 0 0, auto !important;
 }
 
 #right-search-form>#right-search-btn,
@@ -43,7 +43,7 @@
 .fr-view img,
 .pull-left,
 a {
-    cursor: url("https://cdn.discordapp.com/attachments/897809037448589335/979562507909857290/cur_uuiell_heart.png") 0 0, auto !important;
+    /*cursor: url("https://cdn.discordapp.com/attachments/897809037448589335/979562507909857290/cur_uuiell_heart.png") 0 0, auto !important;*/
 }
 
 header .row>div:nth-child(1)>a {
