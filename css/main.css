@@ -176,7 +176,7 @@ body {
 }
 
 a {
-    color: #9D82FF;
+    color: #fc94ad;
 }
 
 header #header-bar>.row,
@@ -184,12 +184,12 @@ header #header-bar>.row,
 #main #main-content>div.frame,
 header #right-search-form>input[type=text] {
     border-radius: 4px;
-    border: 1px dashed #9D82FF;
-    box-shadow: 0 0 0 2px #FBF7FF, 0 0 0 3px #9D82FF, 3px 0px 8px rgba(0, 0, 0, 0.2);
+    border: 1px dashed #fc94ad;
+    box-shadow: 0 0 0 2px #FBF7FF, 0 0 0 3px #fc94ad, 3px 0px 8px rgba(0, 0, 0, 0.2);
 }
 
 .fa.fa-search {
-    color: #9D82FF;
+    color: #fc94ad;
 }
 
 /******************************
@@ -197,25 +197,25 @@ header
 ******************************/
 header #header-bar #header-menu-right #userDropdown img {
     border-radius: 4px;
-    border: 1px dashed #9D82FF;
+    border: 1px dashed #fc94ad;
 }
 
 header #header-bar .fa {
-    color: #9D82FF;
+    color: #fc94ad;
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
-    background-color: #9D82FF;
+    background-color: #fc94ad;
 }
 
 #favoriteDropdownMenu>li>a>span.label.label-default {
-    background-color: #9D82FF;
+    background-color: #fc94ad;
 }
 
 .dropdown-menu {
     border-radius: 4px;
-    border: 1px dashed #9D82FF;
-    box-shadow: 0 0 0 2px #FBF7FF, 0 0 0 3px #9D82FF, 3px 0px 8px rgba(0, 0, 0, 0.2);
+    border: 1px dashed #fc94ad;
+    box-shadow: 0 0 0 2px #FBF7FF, 0 0 0 3px #fc94ad, 3px 0px 8px rgba(0, 0, 0, 0.2);
     animation: menuAnimation 600ms ease-in-out forwards;
     transform-origin: top center;
 }
@@ -230,12 +230,12 @@ navigation (sidebar)
 ******************************/
 #main .menu-wrapper>.header {
     border-radius: 4px 4px 0 0;
-    background-color: #9D82FF;
+    background-color: #fc94ad;
 }
 
 #main .menu-wrapper div.spacer {
     height: 1px;
-    border-bottom: 1px dashed #9D82FF;
+    border-bottom: 1px dashed #fc94ad;
 }
 
 #main .menu-wrapper>a {
@@ -252,7 +252,7 @@ navigation (sidebar)
 }
 
 #main .menu-wrapper>a>em {
-    color: #9D82FF;
+    color: #fc94ad;
 }
 
 /******************************
@@ -264,10 +264,9 @@ board
     width: 70px;
     height: auto;
     border-radius: 4px;
-    border: 1px dashed #9D82FF;
+    border: 1px dashed #fc94ad;
     background-color: #DCE4FF;
-    box-shadow: 0 0 0 2px #FBF7FF, 0 0 0 3px #9D82FF;
-    position: absolute;
+    /*position: absolute;*/
     float: left !important;
     animation: rotation 3s infinite linear !important;
     /*top: -8px;*/
@@ -276,7 +275,7 @@ board
 
 #board-info>h1 {
     margin-left: 95px;
-    border-bottom: 1px dashed #9D82FF;
+    border-bottom: 1px dashed #fc94ad;
 }
 
 /* #board-info>h1> :nth-child(1):before {
@@ -292,20 +291,20 @@ board
 
 #board-info #viewers-area {
     float: right;
-    color: #9D82FF;
+    color: #fc94ad;
 }
 
 #board-info #viewers-area #viewers:before {
     content: "엘이의 ";
     cursor: text;
-    color: #9D82FF;
+    color: #fc94ad;
     font-weight: bold;
 }
 
 #board-info #viewers-area #viewers:after {
     content: "명의 소중한 트수들";
     cursor: text;
-    color: #9D82FF;
+    color: #fc94ad;
     font-weight: bold;
 }
 
@@ -322,14 +321,14 @@ board
 }
 
 #board-info #board-info-bottom a {
-    color: #9D82FF;
+    color: #fc94ad;
 }
 
 @media screen and (min-width: 1400px) {
     #article-list #article-list-category.can-float {
         border-radius: 4px;
-        border: 1px dashed #9D82FF;
-        box-shadow: 0 0 0 2px #FBF7FF, 0 0 0 3px #9D82FF, 3px 0px 8px rgba(0, 0, 0, 0.2);
+        border: 1px dashed #fc94ad;
+        box-shadow: 0 0 0 2px #FBF7FF, 0 0 0 3px #fc94ad, 3px 0px 8px rgba(0, 0, 0, 0.2);
     }
 
     #article-list #article-list-category.can-float>a.active {
@@ -342,11 +341,11 @@ board
 }
 
 #article-list #article-list-category.can-float {
-    border-top: 1px dashed #9D82FF;
+    border-top: 1px dashed #fc94ad;
 }
 
 /* #article-list #article-list-category {
-    border-top: 2px solid #9D82FF;
+    border-top: 2px solid #fc94ad;
     background-color: white;
 }
 
@@ -361,7 +360,7 @@ board
 #article-list>.article-list-row {
     margin-bottom: 4px;
     border-radius: 4px;
-    border: 1px dashed #9D82FF;
+    border: 1px dashed #fc94ad;
 }
 
 #article-list>.article-list-row>.item>.list-checkbox,
@@ -374,12 +373,12 @@ board
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
-    background-color: #9D82FF;
+    background-color: #fc94ad;
 }
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count,
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-    color: #9D82FF;
+    color: #fc94ad;
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-category,
@@ -417,7 +416,7 @@ board
 
 .btn.square.btn-default[type=button]:hover {
     background-color: transparent;
-    color: #9D82FF;
+    color: #fc94ad;
 }
 
 .btn.square.btn-default[type=submit] {
@@ -431,43 +430,43 @@ board
 .pagination>li>a,
 .pagination>li>span {
     margin-right: 5px;
-    color: #9D82FF;
+    color: #fc94ad;
     border-radius: 4px;
     border: none;
 }
 
 .pagination>li>a:focus,
 .pagination>li>span:focus {
-    color: #9D82FF;
+    color: #fc94ad;
 }
 
 .pagination>li>a:hover,
 .pagination>li>span:hover {
-    color: #9D82FF;
+    color: #fc94ad;
     background-color: #EDE2FF;
 }
 
 .pagination>.active>a,
 .pagination>.active>span {
-    background-color: #9D82FF;
-    border-color: #9D82FF;
+    background-color: #fc94ad;
+    border-color: #fc94ad;
 }
 
 .pagination>.active>a:focus,
 .pagination>.active>a:hover,
 .pagination>.active>span:focus,
 .pagination>.active>span:hover {
-    background-color: #9D82FF;
-    border-color: #9D82FF;
+    background-color: #fc94ad;
+    border-color: #fc94ad;
 }
 
 .btn-primary {
-    background-color: #9D82FF;
+    background-color: #fc94ad;
 }
 
 #article-content-wrapper>.header,
 .fr-toolbar.fr-top {
-    border-top-color: #9D82FF;
+    border-top-color: #fc94ad;
 }
 
 /******************************
