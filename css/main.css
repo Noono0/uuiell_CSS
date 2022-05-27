@@ -71,7 +71,7 @@ html {
 body {
     font-family: "KyoboHand", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: transparent;
-     padding-top: 180px;
+    padding-top: 180px;
     background-image: url("https://cdn.discordapp.com/attachments/460145928850898945/515694458633846831/snow.png")
     , url("https://cdn.discordapp.com/attachments/460145928850898945/515694460668084274/snow3.png")
     , url("https://cdn.discordapp.com/attachments/460145928850898945/515694462278828073/snow2.png");
@@ -284,7 +284,7 @@ board
     border: 1px dashed #fc94ad;
     font-weight: bold;
     font-size: initial;
-    background-color: #ffe8f1;
+    background-color: #fff7fa;
 }
 
 #article-list>.article-list-row>.item>.list-checkbox,
@@ -317,7 +317,7 @@ board
 }
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
-    color: #a9a9a9 !important;
+    color: #717277 !important;
 }
 
 
