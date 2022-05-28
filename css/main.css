@@ -402,6 +402,21 @@ board
     border-top-color: #fc94ad;
 }
 
+
+
+#article-reply-area #reply-real-area .reply>.reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
+    background : #dbd2ff !important;
+}
+
+#article-content-wrapper>.header,
+#article-content-wrapper>.footer {
+    background-color: #f9e5e5 !important;
+}
+
+
+
+
+
 /******************************
 footer
 ******************************/
