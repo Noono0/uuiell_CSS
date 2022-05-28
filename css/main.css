@@ -63,7 +63,7 @@ header .row>div:nth-child(1)>a>img {
 
 html {
     height: auto !important;
-    background: linear-gradient(to bottom, #ffe8f1, #f85596);
+    background: linear-gradient(to bottom, #ffe8f1, #ffd3e4);
     scroll-behavior: smooth;
 }
 
@@ -442,6 +442,18 @@ ad-shield-ads{
 #article-list>.article-list-row.featured{
     display:none !important;
 }
+
+/* 메인 게시판 상단 광고 배너 숨기기 */
+#article-list > div:nth-child(3) {
+    background: #ffffff !important;
+    display:none;
+}
+
+/* 글작성 페이지 광고 div 숨기기 */
+#main-content > div > div:nth-child(2) > div {
+    display:none !important;
+}
+
 
 fa.fa-info-circle {
     color: #000000;
