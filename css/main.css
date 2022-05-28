@@ -301,7 +301,7 @@ board
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
     color: #cd00ff !important;
-    font-size: inherit;
+    font-size: 15px;
     font-weight: bold;
 }
 
