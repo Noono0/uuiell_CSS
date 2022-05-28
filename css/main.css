@@ -63,7 +63,7 @@ header .row>div:nth-child(1)>a>img {
 
 html {
     height: auto !important;
-    background: linear-gradient(to bottom, #ffe8f1, #ffe8f1);
+    background: linear-gradient(to bottom, #ffe8f1, #f85596);
     scroll-behavior: smooth;
 }
 
@@ -426,7 +426,6 @@ footer:after {
     position: relative;
 } */
 
-/*# sourceMappingURL=index.css.map */
 
 
 /* --------------- 특수 --------------- */
@@ -442,13 +441,6 @@ ad-shield-ads{
 
 #article-list>.article-list-row.featured{
     display:none !important;
-}
-
-
-
-
-.fa-heart {
-
 }
 
 fa.fa-info-circle {
