@@ -72,9 +72,9 @@ body {
     background: transparent;
     padding-top: 180px;
     /* 리소스 많이먹는거 같아서 임시비활 */
-    background-image: url("https://cdn.discordapp.com/attachments/460145928850898945/515694458633846831/snow.png")
-    , url("https://cdn.discordapp.com/attachments/460145928850898945/515694460668084274/snow3.png")
-    , url("https://cdn.discordapp.com/attachments/460145928850898945/515694462278828073/snow2.png");
+    background-image: url("https://cdn.discordapp.com/attachments/897809037448589335/980518317892702248/snow1.png")
+    , url("https://cdn.discordapp.com/attachments/897809037448589335/980518317632659486/snow2.png")
+    , url("https://cdn.discordapp.com/attachments/897809037448589335/980518317410377788/snow3.png");
     animation: snow 20s linear infinite;
 }
 
