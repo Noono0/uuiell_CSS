@@ -71,11 +71,11 @@ body {
     font-family: "KyoboHand", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: transparent;
     padding-top: 180px;
-    /* 리소스 많이먹어서 못써먹을듯 */
-    /*background-image: url("https://cdn.discordapp.com/attachments/460145928850898945/515694458633846831/snow.png")*/
-    /*, url("https://cdn.discordapp.com/attachments/460145928850898945/515694460668084274/snow3.png")*/
-    /*, url("https://cdn.discordapp.com/attachments/460145928850898945/515694462278828073/snow2.png");*/
-    /*animation: snow 10s linear infinite;*/
+    /* 리소스 많이먹는거 같아서 임시비활 */
+    background-image: url("https://cdn.discordapp.com/attachments/460145928850898945/515694458633846831/snow.png")
+    , url("https://cdn.discordapp.com/attachments/460145928850898945/515694460668084274/snow3.png")
+    , url("https://cdn.discordapp.com/attachments/460145928850898945/515694462278828073/snow2.png");
+    animation: snow 15s linear infinite;
 }
 
 a {
@@ -487,15 +487,15 @@ fa.fa-info-circle {
     color: #1f2227 !important;
 }
 
-/*@keyframes snow {*/
-/*    0% {*/
-/*        background-position: 0px 0px, 0px 0px, 0px 0px;*/
-/*    }*/
+@keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
 
-/*    100% {*/
-/*        background-position: 500px 1000px, 400px 400px, 300px 300px;*/
-/*    }*/
-/*}*/
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
 
 @keyframes menuAnimation {
     0% {
