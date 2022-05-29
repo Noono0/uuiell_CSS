@@ -75,7 +75,7 @@ body {
     background-image: url("https://cdn.discordapp.com/attachments/460145928850898945/515694458633846831/snow.png")
     , url("https://cdn.discordapp.com/attachments/460145928850898945/515694460668084274/snow3.png")
     , url("https://cdn.discordapp.com/attachments/460145928850898945/515694462278828073/snow2.png");
-    animation: snow 15s linear infinite;
+    animation: snow 20s linear infinite;
 }
 
 a {
