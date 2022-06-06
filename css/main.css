@@ -489,7 +489,7 @@ fa.fa-info-circle {
 
 /* 다크모드 DarkMode */
 html.darkmode body .time,
-html.darkmode body .fa fa-clock-o,
+html.darkmode body .fa-clock-o,
 html.darkmode body .ago,
 html.darkmode body #article-views,
 html.darkmode body #article-votes {
