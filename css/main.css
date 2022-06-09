@@ -469,7 +469,6 @@ ad-shield-ads{
     display:none !important;
 }
 
-
 fa.fa-info-circle {
     color: #000000;
     vertical-align: -2px !important;
@@ -486,6 +485,12 @@ fa.fa-info-circle {
 .fa-commenting-o {
     color: #1f2227 !important;
 }
+#게시글 이미지
+div#article-list {
+    background: url(https://cdn.discordapp.com/attachments/708287511520083994/924325893319569448/416854864896.png);
+    background-size: 900px 30000px;
+}
+
 
 /* 다크모드 DarkMode */
 html.darkmode body .time,
