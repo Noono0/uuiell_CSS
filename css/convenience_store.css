@@ -85,7 +85,6 @@ header #right-search-form>input[type=text] {
     border-radius: 4px;
     border: 1px dashed #ec6c07;
     box-shadow: 0 0 0 2px #FBF7FF, 0 0 0 3px #ec6c07, 3px 0px 8px rgba(0, 0, 0, 0.2);
-    margin-top: 20px;
 }
 
 .fa.fa-search {
@@ -97,12 +96,12 @@ header
 ******************************/
 
 header {
-    height: 90px;
+    height: 85px;
     background: url(https://cdn.discordapp.com/attachments/897809037448589335/995068639139074149/sev_logo-success.jpg) no-repeat;
     background-size: contain;
     background-position: center;
-    margin-bottom: 5px;
-    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 /*header:before {*/
@@ -190,7 +189,7 @@ board
     margin: -35px 0 0 00px;
     content: url(https://cdn.discordapp.com/attachments/897809037448589335/995068862179582003/NO-POKET-GOOD.png);
     position: absolute;
-    top: 45px;
+    top: 30px;
     /*left: 700px;*/
     border-radius: 10% 10% 10% 10%;
     border: 3px solid #13e5d9;
@@ -466,8 +465,13 @@ img#board-info-profile-img:hover {
 
 /* 우측밑 상승버튼  */
 #movetotop img{display:none}
-#movetotop{display: inline-block;opacity:0.1;background:url(https://cdn.discordapp.com/attachments/897809037448589335/995286699078848532/-removebg-preview.png);
-    width: 140px; height: 140px;background-size: cover;}
+#movetotop{display: inline-block;
+    opacity:0.8;
+    background:url(https://cdn.discordapp.com/attachments/897809037448589335/995286699078848532/-removebg-preview.png);
+    width: 160px;
+    height: 140px;
+    background-size: cover;
+}
 
 /* 우측사진 in-out */
 #article-list:after {
