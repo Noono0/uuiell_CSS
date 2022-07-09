@@ -73,11 +73,11 @@ body {
     /* padding-top: 180px; */
     /* 리소스 많이먹는거 같아서 임시비활 */
     letter-spacing: -0.05em !important;
-    animation: snow 20s linear infinite;
+    animation: food 20s linear infinite;
     background-image :
-            url('https://cdn.discordapp.com/attachments/897809037448589335/995344148771115058/food_background_1.png'),
-            url('https://cdn.discordapp.com/attachments/897809037448589335/995344148993417246/snow3_1.png'),
-            url("https://cdn.discordapp.com/attachments/897809037448589335/995344149173780480/food_background_3.png");
+            url('https://cdn.discordapp.com/attachments/897809037448589335/995357976854540388/convini_2-removebg-preview.png'),
+            url('https://cdn.discordapp.com/attachments/897809037448589335/995357977206853632/convini_1-removebg-preview.png'),
+            url("https://cdn.discordapp.com/attachments/897809037448589335/995357977206853632/convini_1-removebg-preview.png");
     background-color: #269546;
 }
 a {
