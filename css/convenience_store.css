@@ -75,7 +75,7 @@ body {
     letter-spacing: -0.05em !important;
     animation: food 20s linear infinite;
     background-image :
-            url('https://cdn.discordapp.com/attachments/897809037448589335/995357976854540388/convini_2-removebg-preview.png'),
+            /*url('https://cdn.discordapp.com/attachments/897809037448589335/995357976854540388/convini_2-removebg-preview.png'),*/
             /*url('https://cdn.discordapp.com/attachments/897809037448589335/995357977206853632/convini_1-removebg-preview.png'),*/
             url("https://cdn.discordapp.com/attachments/897809037448589335/995357977206853632/convini_1-removebg-preview.png");
     background-color: #269546;
