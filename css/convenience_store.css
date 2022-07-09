@@ -85,6 +85,7 @@ header #right-search-form>input[type=text] {
     border-radius: 4px;
     border: 1px dashed #ec6c07;
     box-shadow: 0 0 0 2px #FBF7FF, 0 0 0 3px #ec6c07, 3px 0px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
 }
 
 .fa.fa-search {
@@ -96,12 +97,12 @@ header
 ******************************/
 
 header {
-    height: 85px;
+    height: 90px;
     background: url(https://cdn.discordapp.com/attachments/897809037448589335/995068639139074149/sev_logo-success.jpg) no-repeat;
     background-size: contain;
     background-position: center;
-    margin-bottom: 30px;
-
+    margin-bottom: 5px;
+    margin-top: 60px;
 }
 
 /*header:before {*/
@@ -184,19 +185,19 @@ board
 
 /* 프로필사진 버블효과(바꾸실땐 이미지 링크만 바꾸시면 됩니다) */
 #board-info #board-info-profile-img {
-    width: 60px;
-    height: 50px;
-    margin: 10px 0 0 10px;
+    width: 80px;
+    height: 80px;
+    margin: -35px 0 0 00px;
     content: url(https://cdn.discordapp.com/attachments/897809037448589335/995068862179582003/NO-POKET-GOOD.png);
     position: absolute;
-    top: 10px;
+    top: 45px;
     /*left: 700px;*/
     border-radius: 10% 10% 10% 10%;
     border: 3px solid #13e5d9;
 }
 img#board-info-profile-img:hover {
     z-index: 1;
-    transform: scale(5);
+    transform: scale(3);
     transition: transform 0.5s;
 }
 
@@ -273,9 +274,9 @@ img#board-info-profile-img:hover {
 }
 
 .frame {
-    background-color: #f6f4ff !important;
+    /*background-color: #f6f4ff !important;*/
+    /*background-image: url();*/
 }
-
 
 @media screen and (min-width: 1400px) {
     #article-list #article-list-category.can-float {
@@ -570,12 +571,15 @@ fa.fa-info-circle {
 }
 
 #게시글 이미지
+/*div#article-list {*/
+/*    background: url(https://cdn.discordapp.com/attachments/897809037448589335/995080203695050852/table3.png) !important;*/
+/*    background-size:900px 900px;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
 div#article-list {
-    background: url(https://cdn.discordapp.com/attachments/897809037448589335/995080203695050852/table3.png) !important;
-    background-size:900px 900px;
-    background-repeat: no-repeat;
+    background: url(https://cdn.discordapp.com/attachments/708287511520083994/924325893319569448/416854864896.png);
+    background-size: 900px 30000px;
 }
-
 
 /* 다크모드 DarkMode */
 html.darkmode body .time,
