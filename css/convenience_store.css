@@ -72,6 +72,12 @@ body {
     background: transparent;
     /* padding-top: 180px; */
     /* 리소스 많이먹는거 같아서 임시비활 */
+    letter-spacing: -0.05em !important;
+    animation: snow 20s linear infinite;
+    background-image :
+            url('https://cdn.discordapp.com/attachments/897809037448589335/995344148771115058/food_background_1.png'),
+            url('https://cdn.discordapp.com/attachments/897809037448589335/995344148993417246/snow3_1.png'),
+            url("https://cdn.discordapp.com/attachments/897809037448589335/995344149173780480/food_background_3.png");
     background-color: #269546;
 }
 a {
@@ -85,6 +91,7 @@ header #right-search-form>input[type=text] {
     border-radius: 4px;
     border: 1px dashed #ec6c07;
     box-shadow: 0 0 0 2px #FBF7FF, 0 0 0 3px #ec6c07, 3px 0px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom:45px; /*여기이슈*/
 }
 
 .fa.fa-search {
@@ -96,12 +103,12 @@ header
 ******************************/
 
 header {
-    height: 85px;
+    height: 95px;
     background: url(https://cdn.discordapp.com/attachments/897809037448589335/995068639139074149/sev_logo-success.jpg) no-repeat;
     background-size: contain;
     background-position: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 85px;
+    margin-top: 5px;
 }
 
 /*header:before {*/
@@ -217,12 +224,14 @@ img#board-info-profile-img:hover {
     margin-left: 95px;
     border-bottom: 1px dashed #ec6c07;
 }
+
 /* 애니메이션 적용 */
 #board-info h1>a {
     animation: blink 0.5s linear infinite alternate;
     color: #e5d00d;
     text-shadow: 0px 0px 5px #3cd01c;
 }
+
 /* 깜빡이는 애니메이션 */
 @keyframes blink {
     from { opacity: 1; }
@@ -277,6 +286,12 @@ img#board-info-profile-img:hover {
     /*background-image: url();*/
 }
 
+#게시글 이미지
+div#article-list {
+    background: url(https://cdn.discordapp.com/attachments/708287511520083994/924325893319569448/416854864896.png);
+    background-size: 900px 30000px;
+}
+
 @media screen and (min-width: 1400px) {
     #article-list #article-list-category.can-float {
         border-radius: 4px;
@@ -284,9 +299,9 @@ img#board-info-profile-img:hover {
         box-shadow: 0 0 0 2px #FBF7FF, 0 0 0 3px #ec6c07, 3px 0px 8px rgba(0, 0, 0, 0.2);
     }
 
-    /*#article-list #article-list-category.can-float>a.active {*/
-    /*    background: #c9baff;*/
-    /*}*/
+    #article-list #article-list-category.can-float>a.active {
+        background: #c9baff;
+    }
 
     #article-list #article-list-category.can-float>a:hover {
         background: #ede8ff;
@@ -299,7 +314,7 @@ img#board-info-profile-img:hover {
     border-top: 1px dashed #ec6c07;
 }
 
-/* #article-list #article-list-category {
+ #article-list #article-list-category {
     border-top: 2px solid #ec6c07;
     background-color: white;
 }
@@ -310,7 +325,7 @@ img#board-info-profile-img:hover {
 
 #article-list #article-list-category>a:hover {
     background-color: transparent;
-} */
+}
 
 #article-list>.article-list-row.notice{
     margin-bottom: 4px;
@@ -321,67 +336,68 @@ img#board-info-profile-img:hover {
     background-color: #fff8fb !important;
 }
 
-#article-list>.article-list-row {
-    margin-bottom: 4px;
-    border-radius: 4px;
-    border: 1px dashed #ec6c07;
-    font-weight: bold;
-    font-size: initial;
-    background-color: #fff7fa;
-}
+/*#article-list>.article-list-row {*/
+/*    margin-bottom: 4px;*/
+/*    border-radius: 4px;*/
+/*    border: 1px dashed #ec6c07;*/
+/*    font-weight: bold;*/
+/*    font-size: initial;*/
+/*    background-color: #fff7fa;*/
 
-#article-list>.article-list-row>.item>.list-checkbox,
-#article-list>.article-list-row>.item>.list-header,
-#article-list>.article-list-row>.item>.list-category,
-#article-list>.article-list-row>.item>.list-title,
-#article-list>.article-list-row>.item>.list-blocked,
-#article-list>.article-list-row>.item>.list-time {
-    border-bottom: none;
-    font-size: 16px !important;
-}
+/*}*/
 
-#article-list>.article-list-row>.item>.list-header>span {
-    background-color: #584949 !important;
-}
+/*#article-list>.article-list-row>.item>.list-checkbox,*/
+/*#article-list>.article-list-row>.item>.list-header,*/
+/*#article-list>.article-list-row>.item>.list-category,*/
+/*#article-list>.article-list-row>.item>.list-title,*/
+/*#article-list>.article-list-row>.item>.list-blocked,*/
+/*#article-list>.article-list-row>.item>.list-time {*/
+/*    border-bottom: none;*/
+/*    font-size: 16px !important;*/
+/*}*/
 
-#article-list>.article-list-row>.item>.list-title>small.comment-count {
-    color: #3ba3ff !important;
-}
+/*#article-list>.article-list-row>.item>.list-header>span {*/
+/*    background-color: #584949 !important;*/
+/*}*/
 
-#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-    color: #2fc042 !important;
-    font-size: 15px;
-    font-weight: bold;
-}
+/*#article-list>.article-list-row>.item>.list-title>small.comment-count {*/
+/*    color: #3ba3ff !important;*/
+/*}*/
 
-#article-list>.article-list-row>.item>.list-title>.list-category,
-#article-list>.article-list-row>.item>.list-title>.list-writer {
-    border-color: black;
-}
+/*#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {*/
+/*    color: #2fc042 !important;*/
+/*    font-size: 15px;*/
+/*    font-weight: bold;*/
+/*}*/
 
-#article-list>.article-list-row>.item>.list-title>.list-category>span {
-    max-width: 83px !important;
-}
+/*#article-list>.article-list-row>.item>.list-title>.list-category,*/
+/*#article-list>.article-list-row>.item>.list-title>.list-writer {*/
+/*    border-color: black;*/
+/*}*/
 
-#article-list>.article-list-row>.item>.list-title>a:visited {
-    color: #717277 !important;
-}
+/*#article-list>.article-list-row>.item>.list-title>.list-category>span {*/
+/*    max-width: 83px !important;*/
+/*}*/
+
+/*#article-list>.article-list-row>.item>.list-title>a:visited {*/
+/*    color: #717277 !important;*/
+/*}*/
 
 
-#article-list>.article-list-row:hover {
-    background-color: transparent;
-    animation: bounce1 2s ease;
-}
+/*#article-list>.article-list-row:hover {*/
+/*    background-color: transparent;*/
+/*    animation: bounce1 2s ease;*/
+/*}*/
 
-#article-list #article-list-menu>.btn.best {
-    color: #ec6c07;
-    border-color: #ec6c07;
-}
+/*#article-list #article-list-menu>.btn.best {*/
+/*    color: #ec6c07;*/
+/*    border-color: #ec6c07;*/
+/*}*/
 
-#article-list #boardSearchForm .form-control {
-    border-radius: 4px;
-    border: none;
-}
+/*#article-list #boardSearchForm .form-control {*/
+/*    border-radius: 4px;*/
+/*    border: none;*/
+/*}*/
 
 .btn.square {
     border-radius: 4px;
@@ -493,8 +509,8 @@ body::before {
     position: fixed;
     bottom: 0;
     left: 5px;
-    width: 250px;
-    height: 245px;
+    width: 210px;
+    height: 205px;
     border-radius: 0px;
     border: solid 3px #afd5fc;
     /*background-color: #5ea8e8;*/
@@ -574,12 +590,6 @@ fa.fa-info-circle {
     color: #1f2227 !important;
 }
 
-#게시글 이미지
-div#article-list {
-    background: url(https://cdn.discordapp.com/attachments/897809037448589335/995080203695050852/table3.png) !important;
-    background-size:900px 900px;
-    background-repeat: no-repeat;
-}
 
 
 /* 다크모드 DarkMode */
@@ -598,15 +608,11 @@ html.darkmode body #article-votes {
     right: -200px;
 }
 
-/*@keyframes snow {*/
-/*    0% {*/
-/*        background-position: 0px 0px, 0px 0px, 0px 0px;*/
-/*    }*/
-
-/*    100% {*/
-/*        background-position: 500px 1000px, 400px 400px, 300px 300px;*/
-/*    }*/
-/*}*/
+@keyframes food
+{
+    0% {background-position : 0px 0px, 0px 0px, 0px, 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
 
 @keyframes menuAnimation {
     0% {
