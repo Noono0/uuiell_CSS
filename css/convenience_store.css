@@ -70,7 +70,7 @@ html {
 body {
     font-family: "KyoboHand", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: transparent;
-    padding-top: 180px;
+    /* padding-top: 180px; */
     /* 리소스 많이먹는거 같아서 임시비활 */
     background-color: #269546;
 }
@@ -96,14 +96,27 @@ header
 ******************************/
 
 header {
-    height: 65px;
+    height: 85px;
     background: url(https://cdn.discordapp.com/attachments/897809037448589335/995068639139074149/sev_logo-success.jpg) no-repeat;
     background-size: contain;
     background-position: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+
 }
 
-
+/*header:before {*/
+/*    display: block;*/
+/*    !*width: 100px;*!*/
+/*    !*height: 100px;*!*/
+/*    background: url(https://cdn.discordapp.com/attachments/897809037448589335/995068639139074149/sev_logo-success.jpg) no-repeat;*/
+/*    background-position: 52% center;*/
+/*    background-size: 300px auto;*/
+/*    position: absolute;*/
+/*    !*top: 0;*!*/
+/*    !*padding: 0;*!*/
+/*    !*content: "";*!*/
+/*    margin-bottom: 15px;*/
+/*}*/
 
 header #header-bar #header-menu-right #userDropdown img {
     border-radius: 4px;
@@ -171,12 +184,12 @@ board
 
 /* 프로필사진 버블효과(바꾸실땐 이미지 링크만 바꾸시면 됩니다) */
 #board-info #board-info-profile-img {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 50px;
     margin: 10px 0 0 10px;
     content: url(https://cdn.discordapp.com/attachments/897809037448589335/995068862179582003/NO-POKET-GOOD.png);
     position: absolute;
-    top: 5px;
+    top: 10px;
     /*left: 700px;*/
     border-radius: 10% 10% 10% 10%;
     border: 3px solid #13e5d9;
@@ -203,6 +216,17 @@ img#board-info-profile-img:hover {
 #board-info>h1 {
     margin-left: 95px;
     border-bottom: 1px dashed #ec6c07;
+}
+/* 애니메이션 적용 */
+#board-info h1>a {
+    animation: blink 0.5s linear infinite alternate;
+    color: #e5d00d;
+    text-shadow: 0px 0px 5px #3cd01c;
+}
+/* 깜빡이는 애니메이션 */
+@keyframes blink {
+    from { opacity: 1; }
+    to { opacity: .3; }
 }
 
 #board-info #viewers-area {
@@ -430,12 +454,12 @@ img#board-info-profile-img:hover {
 
 
 #article-reply-area #reply-real-area .reply>.reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
-    background : #dbd2ff !important;
+    background : #42dc4c !important;
 }
 
 #article-content-wrapper>.header,
 #article-content-wrapper>.footer {
-    background-color: #f9e5e5 !important;
+    background-color: #e38b15 !important;
 }
 
 
@@ -505,7 +529,7 @@ footer:after {
 /* --------------- 특수 --------------- */
 /* 광고 */
 #article-list > div:nth-child(3) {
-    background: #ffe8f1 !important;
+    background: #3083de !important;
     display:none !important;
 }
 
