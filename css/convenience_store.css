@@ -606,7 +606,7 @@ html.darkmode body #article-votes {
 #article-list:hover:after {
     transition-duration: 1s;
     background-repeat: no-repeat;
-    right: -200px;
+    right: -400px;
 }
 
 /*@keyframes food*/
