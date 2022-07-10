@@ -73,7 +73,7 @@ body {
     /* padding-top: 180px; */
     /* 리소스 많이먹는거 같아서 임시비활 */
     letter-spacing: -0.05em !important;
-    animation: food 25s linear infinite;
+    /*animation: food 25s linear infinite;*/
     background-image :
             /*url('https://cdn.discordapp.com/attachments/897809037448589335/995357976854540388/convini_2-removebg-preview.png'),*/
             /*url('https://cdn.discordapp.com/attachments/897809037448589335/995357977206853632/convini_1-removebg-preview.png'),*/
@@ -480,7 +480,6 @@ div#article-list {
     background-color: #e38b15 !important;
 }
 
-
 /* 우측밑 상승버튼  */
 #movetotop img{display:none}
 #movetotop{display: inline-block;
@@ -506,22 +505,21 @@ div#article-list {
     transition-duration: 1s;
 }
 
-body::before {
-    content: '';
-    position: fixed;
-    bottom: 0;
-    left: 5px;
-    width: 210px;
-    height: 205px;
-    border-radius: 0px;
-    border: solid 3px #afd5fc;
-    /*background-color: #5ea8e8;*/
-    background-image: url(https://cdn.discordapp.com/attachments/897809037448589335/995290595474018394/umpah.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-
-}
+/*body::before {*/
+/*    content: '';*/
+/*    position: fixed;*/
+/*    bottom: 0;*/
+/*    left: 5px;*/
+/*    width: 210px;*/
+/*    height: 205px;*/
+/*    border-radius: 0px;*/
+/*    border: solid 3px #afd5fc;*/
+/*    !*background-color: #5ea8e8;*!*/
+/*    background-image: url(https://cdn.discordapp.com/attachments/897809037448589335/995290595474018394/umpah.png);*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: contain;*/
+/*    background-position: center;*/
+/*}*/
 
 /******************************
 footer
@@ -610,11 +608,11 @@ html.darkmode body #article-votes {
     right: -200px;
 }
 
-@keyframes food
-{
-    0% {background-position : 0px 0px, 0px 0px, 0px, 0px;}
-    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
+/*@keyframes food*/
+/*{*/
+/*    0% {background-position : 0px 0px, 0px 0px, 0px, 0px;}*/
+/*    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}*/
+/*}*/
 
 @keyframes menuAnimation {
     0% {
